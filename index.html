@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de Texto-Klaus</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <a class="alura-vinculo" href="https://app.aluracursos.com/" target="_blank"><img class="alura-logo" src="imagenes/Vector.png" alt="Logo Alura"></a>
+            <h1 class="titulo">El Encriptador de Klaus</h1>
+        </header>
+        <main>
+            <div class="container">
+
+                <section class="section-entrada">
+
+                    <div class="container-texto">
+                        <textarea name="mensaje-entrada" id="mensaje-entrada" cols="30" rows="10" class="cuadro-texto" placeholder="Ingrese su texto aquí..."></textarea>
+                    </div>
+
+                    <div class="container-requisitos">
+                        <img class="exclamacion-advertencia" src="imagenes/exclamation.png" alt="Advertencia">
+                        <p class="advertencia">Solo debe ingresar letras minúsculas y sin acentos</p>
+                    </div>
+
+                    <div class="container-botones">
+                        <button class="boton-encriptar">Encriptar</button id="boton-encriptar">
+                        <button class="boton-desencriptar" id="boton-desencriptar" >Desencriptar</button>
+                    </div>
+
+                </section>
+
+                <section class="section-salida">
+
+                    <div class="container-elementos-salida">
+
+                        <div class="container-mensaje-resultado ocultar">
+                            <p class="mensaje-resultado">Aquí va el mensaje resultado</p>
+                        </div>
+
+                        <div class="container-imagen-resultado">
+                            <img src="imagenes/imagen-mensaje-resultado.png" alt="Klaus">
+                        </div>
+
+                        <h2 class="mensaje-no-encontrado">Ningún mensaje fue encontrado</h2>
+
+                        <div class="container-parrafo">
+                            <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                        </div>
+
+                        <div class="container-boton-copiar ocultar">
+                            <button class="boton-copiar ocultar" id="boton-copiar" >Copiar</button>
+                        </div>
+
+                    </div>
+                    
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="container-copyright">
+                <p>Copyright © 2023 - Claudio Martinich / KlausMart</p>
+            </div>
+        </footer>
+        <script src="function.js"></script>
+    </body>
+
+</html>
