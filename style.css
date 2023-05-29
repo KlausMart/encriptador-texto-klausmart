@@ -31,7 +31,6 @@ header{
 
 main{
     display: block;
-    height: 75vh;
 }
 
 .container{
@@ -237,8 +236,6 @@ footer{
     }
 
     footer{
-        position: absolute;
-        bottom: -350px;
         margin: 1% 1%;
     }
 }
@@ -279,7 +276,6 @@ footer{
     }
 
     footer{
-        position: absolute;
         margin-top: 8vh;
     }
 }
