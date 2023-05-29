@@ -191,3 +191,90 @@ footer{
     font-weight: bold;
     font-size: small;
 }
+
+/*Style para Celulares*/
+@media screen and (max-width:480px) {
+
+    .titulo{
+        position: absolute;
+        left: 80px;
+        padding-right: 5px;
+    }
+
+    .container{
+        display: block;
+        width: 90%;
+        height: 100%;
+        margin-top: 1%;
+        box-sizing: border-box;
+    }
+
+    .section-entrada, .section-salida{
+        margin-bottom: 1em;
+    }
+
+    .section-salida{
+        height: 30rem;
+        margin-top: 2em;
+    }
+
+    .container-requisitos{
+        margin: 1em 0 1em 0;
+    }
+
+    .container-botones{
+        grid-template-columns: 100%;
+        grid-template-rows: 45% 45%;
+        row-gap: 15%;
+    }
+
+    button{
+        height: 2.5em;
+    }
+
+    footer{
+        position: absolute;
+        margin-top: 35vh;
+    }
+}
+
+/*Style para tablets*/
+
+@media screen and (min-width:481px) and (max-width:830px) {
+
+    .container{
+        display: block;
+        width: 90%;
+        height: 100%;
+        margin-top: 1%;
+        box-sizing: border-box;
+    }
+
+    .section-entrada, .section-salida{
+        margin-bottom: 1em;
+    }
+
+    .section-salida{
+        height: 30rem;
+        margin-top: 2em;
+    }
+
+    .container-requisitos{
+        margin: 1em 0 1em 0;
+    }
+
+    .container-botones{
+        grid-template-columns: 100%;
+        grid-template-rows: 45% 45%;
+        row-gap: 15%;
+    }
+
+    button{
+        height: 2.5em;
+    }
+
+    footer{
+        position: absolute;
+        margin-top: 8vh;
+    }
+}
