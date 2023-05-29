@@ -195,6 +195,10 @@ footer{
 /*Style para Celulares*/
 @media screen and (max-width:480px) {
 
+    header{
+        margin: 1em auto;
+    }
+
     .titulo{
         position: absolute;
         left: 80px;
@@ -234,7 +238,8 @@ footer{
 
     footer{
         position: absolute;
-        margin-top: 35vh;
+        bottom: -350px;
+        margin: 1% 1%;
     }
 }
 
@@ -245,7 +250,7 @@ footer{
     .container{
         display: block;
         width: 90%;
-        height: 100%;
+        height: 90%;
         margin-top: 1%;
         box-sizing: border-box;
     }
